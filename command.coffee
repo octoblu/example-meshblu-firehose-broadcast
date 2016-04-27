@@ -44,6 +44,7 @@ class Command
     @conductor.on 'emitter:message', @onEmitterMessage
     @conductor.on 'subscriber:message', @onSubscriberMessage
 
+    console.log 'Setting up meshblu devices. Takes ~5 seconds'
     async.series [
       @conductor.init
       @conductor.startMessaging
