@@ -1,0 +1,26 @@
+{
+  "name": "example-meshblu-firehose-broadcast",
+  "version": "1.0.0",
+  "description": "Example project that creates 2 devices with appropriate whitelists and subscriptions, then sends from one to the other",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octoblu/example-meshblu-firehose-broadcast.git"
+  },
+  "keywords": [],
+  "author": "Octoblu, <serveradmin@octoblu.com> (https://octoblu.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octoblu/example-meshblu-firehose-broadcast/issues"
+  },
+  "homepage": "https://github.com/octoblu/example-meshblu-firehose-broadcast#readme",
+  "dependencies": {
+    "coffee-script": "^1.10.0",
+    "commander": "^2.9.0",
+    "meshblu-firehose-socket.io": "^1.7.0",
+    "meshblu-http": "^5.1.1"
+  }
+}
