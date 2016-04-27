@@ -4,6 +4,7 @@
   "description": "Example project that creates 2 devices with appropriate whitelists and subscriptions, then sends from one to the other",
   "main": "index.js",
   "scripts": {
+    "start": "node command.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,9 +19,11 @@
   },
   "homepage": "https://github.com/octoblu/example-meshblu-firehose-broadcast#readme",
   "dependencies": {
+    "async": "^2.0.0-rc.3",
     "coffee-script": "^1.10.0",
     "commander": "^2.9.0",
+    "meshblu-config": "^4.0.0",
     "meshblu-firehose-socket.io": "^1.7.0",
-    "meshblu-http": "^5.1.1"
+    "meshblu-http": "^5.3.2"
   }
 }
